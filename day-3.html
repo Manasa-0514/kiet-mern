@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hover Effects</title>
+    <style>
+        button {
+            border: none; 
+            width: 150px; 
+            height: 50px; 
+            background-color: black; 
+            color: white; 
+            text-align: center; 
+            line-height: 50px; 
+            font-size: 16px; 
+            cursor: pointer;  
+            padding-left: 25px;
+            transition: opacity 0.3s ease;
+        }
+
+        .request-button:hover {
+            opacity: 0.7;
+        }
+
+        .cart-button {
+            background-color: rgb(255, 216, 20);
+            color: black;
+            border: none;
+            padding: 10px px;
+            padding-bottom: 20px;
+            border-radius: 30px;
+            font-size: 16px;
+            margin: 10px;
+            text-align: center;
+            cursor: pointer;
+            font-weight: bold;
+            display: flex;
+            text-decoration: none;
+           
+        }
+        .cart-button:hover{
+            background-color: #e2a92c;
+            border-color: #8a6d3b;
+        }
+
+        .github-button {
+            background-color: rgb(46, 164, 79);
+            border: none;
+            border-radius: 16px;
+            font-family: sans-serif;
+            text-align: center;
+            padding: 10px 20px;
+            margin: 10px;
+            display: flex;
+            cursor: pointer;
+            padding-left: 45px;
+            padding-right: 40px;
+            padding-top: 0px;
+        }
+        .github-button:hover{
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .boot-button {
+            background-color: rgb(121, 82, 179);
+            border: none;
+            border-radius: 5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            padding: 0px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .boot-button:hover{
+            background-color: rgb(108, 117, 125);
+            box-shadow: white;
+        }
+
+        .strap-button {
+            background-color: white; 
+            border: 2px solid rgb(108, 117, 125); 
+            color: rgb(108, 117, 125); 
+            padding: 0px 20px;
+            border-radius: 5px; 
+            font-size: 16px; 
+            text-align: center; 
+            font-weight: bold; 
+        }
+        .strap-button:hover{
+            background-color: rgb(121, 82, 179);
+            border-color: white;
+        }
+
+        .linked-button {
+            background-color: rgb(10, 103, 194);
+            color: white;
+            font: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: none;
+            border-radius: 20px;
+            display: flex;
+            margin: 10px;
+            width: 25%;
+            height: 40px;
+            text-align: center;
+            padding-bottom: 0px;
+            padding-left: 65px;
+        }
+        .linked-button:hover{
+            background-color: #0056b3; /* Darker blue for hover effect */
+    border-color: #0056b3;
+        }
+
+        .save-button {
+            background-color: white;
+            color: rgb(10, 103, 194);
+            border: 2px solid rgb(10, 103, 194);
+            border-radius: 25px;
+            padding-left: 15px;
+            padding-right: 20px;
+        }
+        .save-button{
+            background-color: #e6f0ff; /* Light blue background for hover effect */
+    border-color: #0056b3;
+        }
+
+        a {
+            color: rgb(0, 113, 133);
+        }
+
+        p {
+            color: rgb(0, 118, 0);
+        }
+    </style>
+</head>
+<body>
+    <button class="request-button">Request now</button>
+    <button class="cart-button">Add to Cart</button>
+    <button class="github-button">Sign up</button>
+    <button class="boot-button">Get started</button>
+    <button class="strap-button">Download</button>
+    <button class="linked-button">Apply on company website</button>
+    <button class="save-button">Save</button>
+</body>
+</html>
